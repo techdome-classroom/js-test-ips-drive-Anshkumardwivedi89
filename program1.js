@@ -7,7 +7,7 @@
       for (let i = 0; i < nums.length; i++) {
           let pos = Math.abs(nums[i]) - 1;   // calculate index of the values
           if (pos < nums.length && nums[pos] > 0) {
-              nums[pos] = -nums[pos];
+              nums[pos] = -nums[pos]; 
           }
       }
       for (let i = 0; i < nums.length; i++) {
